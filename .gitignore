@@ -1,0 +1,26 @@
+# config & venv
+.idea/
+.venv/
+__pycache__
+
+# builds
+*.exp
+*.c
+*.pyd
+*.lib
+*.obj
+
+# data/results
+
+scripts/notebooks/figures
+scripts/notebooks/tables
+
+data/**
+processed/**
+scripts/ablations/outputs/**
+outputs/**
+precomputed/**
+
+# temp
+archive/
+references/
